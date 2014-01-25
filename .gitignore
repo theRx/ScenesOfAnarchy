@@ -1,9 +1,0 @@
-Bin/android_vs2010_anarchy/
-Bin/win32_vs2010_acarchy/dev_dll
-External/
-Obj/
-Lib/
-Source/GameApplication/AndroidTemp/
-Source/*.sdf
-Source/*.suo
-Data/
