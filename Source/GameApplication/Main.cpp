@@ -104,7 +104,6 @@ void ProjectTemplateApp::AfterSceneLoaded(bool bLoadingSuccessful)
   //Vision::Game.CreateEntity("VisMouseCamera_cl", hkvVec3(0.0f, 0.0f, 170.0f));
   // Add other initial game code here
   // [...]
-
 	controller = new GravityRoomController();
 	controller->MapTriggers(this->GetInputMap());
 }

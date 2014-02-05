@@ -1,5 +1,6 @@
 #pragma once
 #include "Constants.h"
+
 class IController
 {
 public:
@@ -11,5 +12,6 @@ protected:
 	static VisBaseEntity_cl* AddSphere();
 	static VisBaseEntity_cl* AddCube();
 	static VisBaseEntity_cl* AddRagdoll();
+
 };
 
