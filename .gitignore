@@ -6,3 +6,5 @@ Source/GameApplication/AndroidTemp/
 Source/*.sdf
 Source/*.suo
 Data/
+*.opensdf
+*.ipch

@@ -1,12 +1,15 @@
 #include "GameApplicationPCH.h"
 #include "GravityRoomController.h"
-#include <Vision/Runtime/EnginePlugins/Havok/HavokPhysicsEnginePlugin/vHavokPhysicsModule.hpp>
-#include <Vision/Runtime/EnginePlugins/Havok/HavokPhysicsEnginePlugin/vHavokRagdoll.hpp>
 
 GravityRoomController::GravityRoomController(void)
 {
 	VisBaseEntity_cl *pCamera  = Vision::Game.SearchEntity("CameraPosition");
 	Vision::Camera.AttachToEntity(pCamera, hkvVec3::ZeroVector());
+#if defined(_VISION_ANDROID)
+	pMod = static_cast<vHavokPhysicsModule*>(vHavokPhysicsModule::GetInstance());
+	pMotionInput = (VMotionInputAndroid*)(&VInputManager::GetInputDevice(INPUT_DEVICE_MOTION_SENSOR));
+	pMotionInput->SetEnabled(true);
+#endif
 }
 
 
@@ -14,40 +17,25 @@ GravityRoomController::~GravityRoomController(void)
 {
 }
 
-void AddRagdoll(){	
-	VisBaseEntity_cl *ent2 = Vision::Game.CreateEntity("VisBaseEntity_cl", hkvVec3(-100.0f, 5, 100), "Models\\Warrior\\Warrior.model");
-	vHavokRagdoll *ragdoll = new vHavokRagdoll();
-	ragdoll->SetRagdollCollisionFile("Models\\Warrior\\WarriorRagdoll.hkt");
-	ent2->AddComponent(ragdoll);
-
-}
-void AddCube(){
-
-	VisBaseEntity_cl *ent2 = Vision::Game.CreateEntity("VisBaseEntity_cl", hkvVec3(-100.0f, 30, 100), "Models\\Misc\\Cube.Model");
-	vHavokRigidBody *cube = new vHavokRigidBody();
-	cube->Havok_TightFit = true;
-	ent2->AddComponent(cube);
-
-}
-void AddSphere(){
-
-	VisBaseEntity_cl *ent2 = Vision::Game.CreateEntity("VisBaseEntity_cl", hkvVec3(-100.0f, -30, 100), "Models\\Misc\\Sphere.Model");
-	vHavokRigidBody *sphere = new vHavokRigidBody();
-	sphere->Havok_TightFit = true;
-	sphere->Havok_Restitution = 1.0f;
-	ent2->AddComponent(sphere);
-
-}
 void GravityRoomController::Run(VInputMap* inputMap){
-		if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE)){
-			AddCube();
-		}
-		if(inputMap->GetTrigger(CUSTOM_CONTROL_TWO)){
-			AddSphere();
-		}
-		if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE)){
-			AddRagdoll();
-		}
+#if defined(_VISION_ANDROID)
+	hkvVec3 accel = pMotionInput->GetAcceleration();
+	//Multiply it by 1K to increase the intensity
+	accel = accel *1000;
+	//Havok uses weird axises (axi?) so they had to be swapped and negated
+	hkvVec3 gravity = hkvVec3(-1*accel.z,-1*accel.x,accel.y);
+	//set the new gravity
+	pMod->SetGravity(gravity);
+#endif
+	if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE)){
+		GravityRoomController::AddCube();
+	}
+	if(inputMap->GetTrigger(CUSTOM_CONTROL_TWO)){
+		GravityRoomController::AddSphere();
+	}
+	if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE)){
+		GravityRoomController::AddRagdoll();
+	}
 }
 
 void GravityRoomController::MapTriggers(VInputMap* inputMap){
