@@ -28,13 +28,15 @@ void GravityRoomController::Run(VInputMap* inputMap){
 	pMod->SetGravity(gravity);
 #endif
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE)){
-		GravityRoomController::AddCube();
+		this->AddCube();
 	}
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_TWO)){
-		GravityRoomController::AddSphere();
+		//this->AddSphere();
+		this->RemoveLast();
+
 	}
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE)){
-		GravityRoomController::AddRagdoll();
+		this->AddRagdoll();
 	}
 }
 
