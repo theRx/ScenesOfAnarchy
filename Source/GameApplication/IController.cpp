@@ -22,8 +22,9 @@ VisBaseEntity_cl* IController::AddRagdoll(){
 	vHavokRagdoll *ragdoll = new vHavokRagdoll();
 	ragdoll->SetRagdollCollisionFile("Models\\Warrior\\WarriorRagdoll.hkt");
 	ent->AddComponent(ragdoll);
-	EntityStack stack = *entityStack;
-	stack.push(ent);
+	//EntityStack stack = *entityStack;
+	//stack.push(ent);
+	entityStack->push(ent);
 	return ent;
 }
 
@@ -33,8 +34,9 @@ VisBaseEntity_cl* IController::AddSphere(){
 	sphere->Havok_TightFit = true;
 	sphere->Havok_Restitution = 1.0f;
 	ent->AddComponent(sphere);
-	EntityStack stack = *entityStack;
-	stack.push(ent);
+	//EntityStack stack = *entityStack;
+	//stack.push(ent);
+	entityStack->push(ent);
 	return ent;
 }
 
@@ -43,13 +45,17 @@ VisBaseEntity_cl* IController::AddCube(){
 	vHavokRigidBody *cube = new vHavokRigidBody();
 	cube->Havok_TightFit = true;
 	ent->AddComponent(cube);
-	EntityStack stack = *entityStack;
-	stack.push(ent);
+	//EntityStack stack = *entityStack;
+	//stack.push(ent);
+	entityStack->push(ent);
 	return ent;
 }
 
 void IController::RemoveLast(void)
 {
-	VisBaseEntity_cl *ent = ((EntityStack)*entityStack).pop();
-	ent->Remove();
+	VisBaseEntity_cl *ent = entityStack->pop();
+	if (ent != NULL)
+	{
+		ent->DisposeObject();
+	}
 }

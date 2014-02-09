@@ -28,11 +28,12 @@ void GravityRoomController::Run(VInputMap* inputMap){
 	pMod->SetGravity(gravity);
 #endif
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE)){
-		this->AddCube();
+		//this->AddCube();
+		this->RemoveLast();
 	}
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_TWO)){
-		//this->AddSphere();
-		this->RemoveLast();
+		this->AddSphere();
+		//this->RemoveLast();
 
 	}
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE)){
