@@ -11,7 +11,7 @@
 
 #include <Vision/Runtime/Framework/VisionApp/Modules/VHelp.hpp>
 #include "IController.h"
-#include "GravityRoomController.h"
+#include "TumblerController.h"
 // Use the following line to initialize a plugin that is statically linked.
 // Note that only Windows platform links plugins dynamically (on Windows you can comment out this line).
 VIMPORT IVisPlugin_cl* GetEnginePlugin_GamePlugin();
@@ -93,7 +93,7 @@ void ProjectTemplateApp::Init()
 
 	// Set filename and paths to our stand alone version.
 	// Note: "/Data/Vision/Base" is always added by the sample framework
-	VisAppLoadSettings settings("Scenes/GravityRoom.vscene");
+	VisAppLoadSettings settings("Scenes/Tumbler.vscene");
 
 	settings.m_customSearchPaths.Append(":template_root/Assets");
 	LoadScene(settings);
@@ -114,7 +114,7 @@ void ProjectTemplateApp::AfterSceneLoaded(bool bLoadingSuccessful)
 	//Vision::Game.CreateEntity("VisMouseCamera_cl", hkvVec3(0.0f, 0.0f, 170.0f));
 	// Add other initial game code here
 	// [...]
-	controller = new GravityRoomController();
+	controller = new TumblerController();
 	controller->MapTriggers(this->GetInputMap());
 }
 
