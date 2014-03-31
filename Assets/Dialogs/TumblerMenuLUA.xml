@@ -1,0 +1,87 @@
+<root>
+	<DIALOG class="VDialog" name="MainMenu" fullscreen="FALSE" backgroundcolor="51,51,51,200" size="275,600" startPosition="ScreenCenter">
+	
+		<script filename="TumblerMenu.lua"/>
+		
+		<!-- text labels -->
+		<control class="VTextLabel" ID="STATIC1" pos="30,100" size="150,35">
+			<text text="Balls (Additive)" font="MenuFont" color="255,192,25,255" valign="CENTER" halign="LEFT"/>
+		</control>
+
+		<control class="VTextLabel" ID="STATIC2" pos="30,350" size="150,35">
+			<text text="Speed" font="MenuFont" color="255,192,25,255" valign="CENTER" halign="LEFT"/>
+		</control>
+		
+		<!-- ball spawners -->
+		<!-- 5 -->
+		<control class="VCheckBox" pos="30,150" size="150,25" ID="CHECKBOX1" checked="false">
+			<image texture="checkbox.tga">
+				<statemodifier state="selected" texture="checkboxMarked.tga"/>
+			</image>
+			<text text=" 5 balls" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+		</control>
+		<!-- 10 -->
+		<control class="VCheckBox" pos="30,175" size="150,25" ID="CHECKBOX2" checked="false">
+			<image texture="checkbox.tga">
+				<statemodifier state="selected" texture="checkboxMarked.tga"/>
+			</image>
+			<text text="10 balls" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+		</control>
+		<!-- 15 -->
+		<control class="VCheckBox" pos="30,200" size="150,25" ID="CHECKBOX3" checked="false">
+			<image texture="checkbox.tga">
+				<statemodifier state="selected" texture="checkboxMarked.tga"/>
+			</image>
+			<text text="15 balls" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+		</control>
+		<!-- 20 -->
+		<control class="VCheckBox" pos="30,225" size="150,25" ID="CHECKBOX4" checked="false">
+			<image texture="checkbox.tga">
+				<statemodifier state="selected" texture="checkboxMarked.tga"/>
+			</image>
+			<text text="20 balls" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+		</control>
+		<!-- 25 -->
+		<control class="VCheckBox" pos="30,250" size="150,25" ID="CHECKBOX5" checked="false">
+			<image texture="checkbox.tga">
+				<statemodifier state="selected" texture="checkboxMarked.tga"/>
+			</image>
+			<text text="25 balls" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+		</control>
+		<!-- 30 -->
+		<control class="VCheckBox" pos="30,275" size="150,25" ID="CHECKBOX6" checked="false">
+			<image texture="checkbox.tga">
+				<statemodifier state="selected" texture="checkboxMarked.tga"/>
+			</image>
+			<text text="30 balls" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+		</control>
+		<!-- 35 -->
+		<control class="VCheckBox" pos="30,300" size="150,25" ID="CHECKBOX7" checked="false">
+			<image texture="checkbox.tga">
+				<statemodifier state="selected" texture="checkboxMarked.tga"/>
+			</image>
+			<text text="35 balls" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+		</control>
+		
+		<!-- speed control -->
+		<!-- 10 -->
+		<control class="VCheckBox" pos="30,400" size="150,25" ID="CHECKBOX8" checked="false">
+			<image texture="checkbox.tga">
+				<statemodifier state="selected" texture="checkboxMarked.tga"/>
+			</image>
+			<text text="Slow" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
+		</control>
+
+		
+		<!-- close button -->
+		<control class="VPushButton" ID="QUIT" pos="30,460" size="88,35" dialogResult="CANCEL" enabled="true" tooltiptext="Close the menu" taborder="6">
+			<text text="Close" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" color="230,230,230,255"/>
+				<statemodifier state="selected" color="255,255,255,255"/>
+				<statemodifier state="disabled" color="120,120,120,255"/>
+			</text>
+		</control>
+		
+	
+	</DIALOG>
+</root>

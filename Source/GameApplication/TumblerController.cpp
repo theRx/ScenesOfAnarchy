@@ -1,6 +1,5 @@
 #include "GameApplicationPCH.h"
 #include "TumblerController.h"
-#include <Vision/Runtime/EnginePlugins/Havok/HavokPhysicsEnginePlugin/vHavokRigidBody.hpp>
 
 //Constructor
 TumblerController::TumblerController(void)
@@ -8,7 +7,7 @@ TumblerController::TumblerController(void)
 	//Grabs the Tumbler and camera from vForge
 	VisBaseEntity_cl *pCamera = Vision::Game.SearchEntity("CameraPosition");
 	Vision::Camera.AttachToEntity(pCamera, hkvVec3::ZeroVector());
-
+	//VisBaseEntity_cl *vTumbler = Vision::Game.SearchEntity("TumblerMachine");
 #if defined(_VISION_ANDROID)
 	pMod = static_cast<vHavokPhysicsModule*>(vHavokPhysicsModule::GetInstance());
 #endif
@@ -22,21 +21,24 @@ TumblerController::~TumblerController(void)
 //Runtime logic
 void TumblerController::Run(VInputMap* inputMap)
 {
+	//static vector to set rotation for the tumbler
+	//hkvVec3 torqueValue = hkvVec3(0, 100, 0);
+
 	//Adding ragdolls and spheres and removing them
 	if(inputMap->GetTrigger(CUSTOM_CONTROL_ONE))
 	{
 		//this->AddCube();
 		this->RemoveLast();
 	}
-	if(inputMap->GetTrigger(CUSTOM_CONTROL_TWO))
+	if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE))
 	{
 		this->AddSphere();
 		//this->RemoveLast();
 	}
-	if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE))
+	/*if(inputMap->GetTrigger(CUSTOM_CONTROL_THREE))
 	{
-		this->AddSphere();
-	}
+		this->AddRagdoll();
+	}*/
 
 }
 

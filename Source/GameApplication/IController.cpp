@@ -31,9 +31,9 @@ VisBaseEntity_cl* IController::AddRagdoll(){
 VisBaseEntity_cl* IController::AddSphere(){
 	VisBaseEntity_cl *ent = Vision::Game.CreateEntity("VisBaseEntity_cl", hkvVec3(-100.0f, -30, 100), "Models\\Misc\\Sphere.Model");
 	vHavokRigidBody *sphere = new vHavokRigidBody();
-	sphere->Havok_Mass = 0.1f;
 	sphere->Havok_TightFit = true;
 	sphere->Havok_Restitution = 1.0f;
+	sphere->Havok_Mass = 0.1f;
 	ent->AddComponent(sphere);
 	//EntityStack stack = *entityStack;
 	//stack.push(ent);

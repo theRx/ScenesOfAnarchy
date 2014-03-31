@@ -125,4 +125,20 @@ models/warrior/warrior_smap-2k.dds	models/warrior/warrior_smap-2k.dds	sRGB=false
 models/warrior/warriorevents.anim	models/warrior/warriorevents.anim	
 models/warrior/warriorevents.model	models/warrior/warriorevents.model	LODSwitchDistances=
 textures/blubber.dds	textures/blubber.dds	sRGB=false
+dialogs/arial_18_00.dds	dialogs/arial_18_00.dds	sRGB=false
+dialogs/button.tga	dialogs/button.tga	sRGB=false
+dialogs/buttonclicked.tga	dialogs/buttonclicked.tga	sRGB=false
+dialogs/buttondisabled.tga	dialogs/buttondisabled.tga	sRGB=false
+dialogs/buttonmouseover.tga	dialogs/buttonmouseover.tga	sRGB=false
+dialogs/checkbox.tga	dialogs/checkbox.tga	sRGB=false
+dialogs/checkboxmarked.tga	dialogs/checkboxmarked.tga	sRGB=false
+dialogs/closebutton.tga	dialogs/closebutton.tga	sRGB=false
+dialogs/closebuttongray.tga	dialogs/closebuttongray.tga	sRGB=false
+dialogs/closebuttonhigh.tga	dialogs/closebuttonhigh.tga	sRGB=false
+dialogs/closebuttonsel.tga	dialogs/closebuttonsel.tga	sRGB=false
+dialogs/dialogframe.tga	dialogs/dialogframe.tga	sRGB=false
+dialogs/logo.tga	dialogs/logo.tga	sRGB=false
+dialogs/mousehigh.tga	dialogs/mousehigh.tga	sRGB=false
+dialogs/mousenorm.tga	dialogs/mousenorm.tga	sRGB=false
 models/misc/tumbler.model	models/misc/tumbler.model	LODSwitchDistances=
+prefabs/tumblerballprefab.prefab	prefabs/tumblerballprefab.prefab	
