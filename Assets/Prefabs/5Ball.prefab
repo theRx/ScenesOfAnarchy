@@ -1,0 +1,180 @@
+<root>
+  <info createdby="vForge version 2013.2.5.1" />
+  <header version="0" name="" description="" category="" convertible="True" autosavebinary="False" relativefilenames="False" />
+  <thumbnail type="jpg" size="4936">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NgkDqM5DLtP9RWRPDJBIUmQow7GvSb9HktN0WI4BwTkLn8KxNS01ZrRlaMqVG5GbjB/wrKeHjJXhoaYLOpt2r6pv5o42ilYFWIYEEcEHtSVwn04UUUUAFX7fV7+3hEUdw3ljoGAbHsMjge1UKKabWxnUpQqq04p+up0EXiy/jiCeXbNgYLFDk+/XFQXHiO/lIKNFCR18tOv55rGop88u5zRy3Cxd1TX3E1zdT3T7riZ5DkkbjnGfT0qGiipbudkYqKtFWQUUUUDCiiigAooooAKKKKACiiigAooooAtaVzqln/12T/0IV6baxo85llifaSRgAYPvXl1lKILyCZslY5Fc464BzXqOlNOZFeOVDEwyCTkH6V24WTUZWPlOJE04y8mXkgikjw8CiJQdoYdasRrG8LKDFbRgfdAIz9c0kksEKSRurtJg/P0wfascaK0sAuGvA7dSHO4CqlKctGfJRSnrOVu3UpXOwSPI8b3AXgNuAQH2HelnkP2aV/P6J8qqm3bVkWsbyIWmEsajIXaFGfpVLW9Qtkx5SDzR1AHU1pTPRg+eSjFXMc3ErxuHX5WHLHqa67ToIJLGJ8EKqDLbscjr+Ga5i0Es5LTpgdAoGM5rp1muIrVIo4/kChGPY8da2qy91cpeNd0ox0+ZHqD2stuiwOpZeNo7D61nXs0/2MEBueApB5H1Na4jSeEeRbRsw+95a9vrWXqsEjjNzI0MS87MYwB6msKbs9TCg43UX+JwOpqFv5gBjJBx9RmqtTXs32i7llGcM3y5HIHb9MVDXBNpybR+jUU404qW9kFFFFQahRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABXc+EtU+02q2z/62AbeWA3J0H5cD8vWuGqS3mkt50mgcpIhyGFaU6jg7nDmGCjjKLpvfoz1OWwlkCs0+3byCCckemKkspRHJ5VvC7u3VyDiud0HxXaNAYdWUxuFGJVyVc/QDg9OnHXp0roYdRYgva3KTQg4zGyvg10qfNsfCYrCYjDt06sfTs/n1Lc+k3bHiVcnkruIwKzrm2+xR/ciMhP3gATUeoa1dqVV7lIA3R5XRSR7cVzd/4jiiTFoxubhussgOB+eDVKbh8TLweBxVaySuvLb5st6xqqae0TbFlmLAlCxHy9+nT/PXBq7ZeKtNuYwkjS20pwB5vzLk/wC0O3ucV59NK88rSysXkY5JPemVzzruTv0Pqf7AoSpKNRvm7o9Ek8XW0cBEN4MgZwImy30yAP1rk9c1yfUyUywizk7jkv6Z/wAP51j0VDqNqx0YTJsNhZ88Fd+f/DIKKKKzPVCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKAP/2Q==</thumbnail>
+  <shape class="EntityShape">
+    <property name="ModelFile" value="Models/MagicBall.model" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="EntityClass" value="VisBaseEntity_cl" />
+    <property name="ClassDefinitionTemplate" value="" />
+    <property name="EntityPropertyString" value="" />
+    <property name="ScaleX" value="7" />
+    <property name="ScaleY" value="7" />
+    <property name="ScaleZ" value="7" />
+    <property name="UniformScaling" value="7" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="NearClipDistance" value="0" />
+    <property name="FarClipDistance" value="0" />
+    <property name="RenderOrderPriority" value="0" />
+    <property name="CastDynamicShadows" value="False" />
+    <property name="CastStaticShadows" value="False" />
+    <property name="LightInfluenceBitmask" value="1" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="SampleOfsX" value="0" />
+    <property name="SampleOfsY" value="0" />
+    <property name="SampleOfsZ" value="0" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="-3.2,-46.40001,-44.2" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="7,7,7" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="MagicBall.model" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="15192821397937193569" />
+    <component class="vHavokRigidBody" paramstring="ComponentID=;Shape_Type=Sphere;Shape_Radius=0;Shape_BoxSize=0,0,0;Shape_Height=0;Shape_PivotOffset=0,0,0;Shape_CenterOfMass=0,0,0;Havok_NoDeactivate=False;Havok_Mass=0.1;Havok_InertiaTensorComputeMode=Volume;Havok_SurfaceThickness=0.1;Havok_InertiaTensorAxisScaling=1,1,1;Havok_InertiaTensorScaling=1;Havok_Friction=0.5;Havok_Restitution=0.4;Havok_LinearDamping=0;Havok_AngularDamping=0.05;Havok_FileResourceName=;Debug_Render=False;Debug_Color=50,255,50,255;Havok_TakeRbDataFromFile=False;Havok_MotionType=Dynamic;Shape_PivotOffsetAutoAlign=True;Havok_CollisionLayer=1;Havok_CollisionGroup=0;Havok_SubSystemId=0;Havok_SubSystemDontCollideWith=0;Havok_QualityType=Auto;Havok_MaxKinematicVelocity=600;Havok_AlwaysInitAsDynamic=False;Havok_Active=True;Havok_WeldingType=None;Havok_TightFit=False;" visible="True" serializable="True" editable="True" removable="True" />
+  </shape>
+  <shape class="EntityShape">
+    <property name="ModelFile" value="Models/MagicBall.model" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="EntityClass" value="VisBaseEntity_cl" />
+    <property name="ClassDefinitionTemplate" value="" />
+    <property name="EntityPropertyString" value="" />
+    <property name="ScaleX" value="7" />
+    <property name="ScaleY" value="7" />
+    <property name="ScaleZ" value="7" />
+    <property name="UniformScaling" value="7" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="NearClipDistance" value="0" />
+    <property name="FarClipDistance" value="0" />
+    <property name="RenderOrderPriority" value="0" />
+    <property name="CastDynamicShadows" value="False" />
+    <property name="CastStaticShadows" value="False" />
+    <property name="LightInfluenceBitmask" value="1" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="SampleOfsX" value="0" />
+    <property name="SampleOfsY" value="0" />
+    <property name="SampleOfsZ" value="0" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="111.8,69.59999,-99.2" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="7,7,7" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="MagicBall.model0" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="15192821397937193565" />
+    <component class="vHavokRigidBody" paramstring="ComponentID=;Shape_Type=Sphere;Shape_Radius=0;Shape_BoxSize=0,0,0;Shape_Height=0;Shape_PivotOffset=0,0,0;Shape_CenterOfMass=0,0,0;Havok_NoDeactivate=False;Havok_Mass=0.1;Havok_InertiaTensorComputeMode=Volume;Havok_SurfaceThickness=0.1;Havok_InertiaTensorAxisScaling=1,1,1;Havok_InertiaTensorScaling=1;Havok_Friction=0.5;Havok_Restitution=0.4;Havok_LinearDamping=0;Havok_AngularDamping=0.05;Havok_FileResourceName=;Debug_Render=False;Debug_Color=50,255,50,255;Havok_TakeRbDataFromFile=False;Havok_MotionType=Dynamic;Shape_PivotOffsetAutoAlign=True;Havok_CollisionLayer=1;Havok_CollisionGroup=0;Havok_SubSystemId=0;Havok_SubSystemDontCollideWith=0;Havok_QualityType=Auto;Havok_MaxKinematicVelocity=600;Havok_AlwaysInitAsDynamic=False;Havok_Active=True;Havok_WeldingType=None;Havok_TightFit=False;" visible="True" serializable="True" editable="True" removable="True" />
+  </shape>
+  <shape class="EntityShape">
+    <property name="ModelFile" value="Models/MagicBall.model" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="EntityClass" value="VisBaseEntity_cl" />
+    <property name="ClassDefinitionTemplate" value="" />
+    <property name="EntityPropertyString" value="" />
+    <property name="ScaleX" value="7" />
+    <property name="ScaleY" value="7" />
+    <property name="ScaleZ" value="7" />
+    <property name="UniformScaling" value="7" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="NearClipDistance" value="0" />
+    <property name="FarClipDistance" value="0" />
+    <property name="RenderOrderPriority" value="0" />
+    <property name="CastDynamicShadows" value="False" />
+    <property name="CastStaticShadows" value="False" />
+    <property name="LightInfluenceBitmask" value="1" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="SampleOfsX" value="0" />
+    <property name="SampleOfsY" value="0" />
+    <property name="SampleOfsZ" value="0" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="218.8,-46.40001,50.8" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="7,7,7" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="MagicBall.model1" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="15192821397937193566" />
+    <component class="vHavokRigidBody" paramstring="ComponentID=;Shape_Type=Sphere;Shape_Radius=0;Shape_BoxSize=0,0,0;Shape_Height=0;Shape_PivotOffset=0,0,0;Shape_CenterOfMass=0,0,0;Havok_NoDeactivate=False;Havok_Mass=0.1;Havok_InertiaTensorComputeMode=Volume;Havok_SurfaceThickness=0.1;Havok_InertiaTensorAxisScaling=1,1,1;Havok_InertiaTensorScaling=1;Havok_Friction=0.5;Havok_Restitution=0.4;Havok_LinearDamping=0;Havok_AngularDamping=0.05;Havok_FileResourceName=;Debug_Render=False;Debug_Color=50,255,50,255;Havok_TakeRbDataFromFile=False;Havok_MotionType=Dynamic;Shape_PivotOffsetAutoAlign=True;Havok_CollisionLayer=1;Havok_CollisionGroup=0;Havok_SubSystemId=0;Havok_SubSystemDontCollideWith=0;Havok_QualityType=Auto;Havok_MaxKinematicVelocity=600;Havok_AlwaysInitAsDynamic=False;Havok_Active=True;Havok_WeldingType=None;Havok_TightFit=False;" visible="True" serializable="True" editable="True" removable="True" />
+  </shape>
+  <shape class="EntityShape">
+    <property name="ModelFile" value="Models/MagicBall.model" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="EntityClass" value="VisBaseEntity_cl" />
+    <property name="ClassDefinitionTemplate" value="" />
+    <property name="EntityPropertyString" value="" />
+    <property name="ScaleX" value="7" />
+    <property name="ScaleY" value="7" />
+    <property name="ScaleZ" value="7" />
+    <property name="UniformScaling" value="7" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="NearClipDistance" value="0" />
+    <property name="FarClipDistance" value="0" />
+    <property name="RenderOrderPriority" value="0" />
+    <property name="CastDynamicShadows" value="False" />
+    <property name="CastStaticShadows" value="False" />
+    <property name="LightInfluenceBitmask" value="1" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="SampleOfsX" value="0" />
+    <property name="SampleOfsY" value="0" />
+    <property name="SampleOfsZ" value="0" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="-114.2,69.59999,16.8" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="7,7,7" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="MagicBall.model2" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="15192821397937193567" />
+    <component class="vHavokRigidBody" paramstring="ComponentID=;Shape_Type=Sphere;Shape_Radius=0;Shape_BoxSize=0,0,0;Shape_Height=0;Shape_PivotOffset=0,0,0;Shape_CenterOfMass=0,0,0;Havok_NoDeactivate=False;Havok_Mass=0.1;Havok_InertiaTensorComputeMode=Volume;Havok_SurfaceThickness=0.1;Havok_InertiaTensorAxisScaling=1,1,1;Havok_InertiaTensorScaling=1;Havok_Friction=0.5;Havok_Restitution=0.4;Havok_LinearDamping=0;Havok_AngularDamping=0.05;Havok_FileResourceName=;Debug_Render=False;Debug_Color=50,255,50,255;Havok_TakeRbDataFromFile=False;Havok_MotionType=Dynamic;Shape_PivotOffsetAutoAlign=True;Havok_CollisionLayer=1;Havok_CollisionGroup=0;Havok_SubSystemId=0;Havok_SubSystemDontCollideWith=0;Havok_QualityType=Auto;Havok_MaxKinematicVelocity=600;Havok_AlwaysInitAsDynamic=False;Havok_Active=True;Havok_WeldingType=None;Havok_TightFit=False;" visible="True" serializable="True" editable="True" removable="True" />
+  </shape>
+  <shape class="EntityShape">
+    <property name="ModelFile" value="Models/MagicBall.model" />
+    <property name="CustomMaterialSet" value="&lt;None&gt;" />
+    <property name="EntityClass" value="VisBaseEntity_cl" />
+    <property name="ClassDefinitionTemplate" value="" />
+    <property name="EntityPropertyString" value="" />
+    <property name="ScaleX" value="7" />
+    <property name="ScaleY" value="7" />
+    <property name="ScaleZ" value="7" />
+    <property name="UniformScaling" value="7" />
+    <property name="NavMeshUsage" value="IncludeInNavMesh" />
+    <property name="VisibleBitmask" value="4294967295" />
+    <property name="NearClipDistance" value="0" />
+    <property name="FarClipDistance" value="0" />
+    <property name="RenderOrderPriority" value="0" />
+    <property name="CastDynamicShadows" value="False" />
+    <property name="CastStaticShadows" value="False" />
+    <property name="LightInfluenceBitmask" value="1" />
+    <property name="AmbientColor" value="0,0,0,255" />
+    <property name="ShowLightgridWidget" value="False" />
+    <property name="SampleOfsX" value="0" />
+    <property name="SampleOfsY" value="0" />
+    <property name="SampleOfsZ" value="0" />
+    <property name="ObjectKey" value="" />
+    <property name="Visible" value="True" />
+    <property name="Position" value="-213.2,-46.40001,75.8" />
+    <property name="Orientation" value="0,0,0" />
+    <property name="Scaling" value="7,7,7" />
+    <property name="TextLabel" value="" />
+    <property name="ShapeName" value="MagicBall.model3" />
+    <property name="UserDataString" value="" />
+    <property name="ExportShape" value="True" />
+    <property name="UniqueID" value="15192821397937193568" />
+    <component class="vHavokRigidBody" paramstring="ComponentID=;Shape_Type=Sphere;Shape_Radius=0;Shape_BoxSize=0,0,0;Shape_Height=0;Shape_PivotOffset=0,0,0;Shape_CenterOfMass=0,0,0;Havok_NoDeactivate=False;Havok_Mass=0.1;Havok_InertiaTensorComputeMode=Volume;Havok_SurfaceThickness=0.1;Havok_InertiaTensorAxisScaling=1,1,1;Havok_InertiaTensorScaling=1;Havok_Friction=0.5;Havok_Restitution=0.4;Havok_LinearDamping=0;Havok_AngularDamping=0.05;Havok_FileResourceName=;Debug_Render=False;Debug_Color=50,255,50,255;Havok_TakeRbDataFromFile=False;Havok_MotionType=Dynamic;Shape_PivotOffsetAutoAlign=True;Havok_CollisionLayer=1;Havok_CollisionGroup=0;Havok_SubSystemId=0;Havok_SubSystemDontCollideWith=0;Havok_QualityType=Auto;Havok_MaxKinematicVelocity=600;Havok_AlwaysInitAsDynamic=False;Havok_Active=True;Havok_WeldingType=None;Havok_TightFit=False;" visible="True" serializable="True" editable="True" removable="True" />
+  </shape>
+</root>

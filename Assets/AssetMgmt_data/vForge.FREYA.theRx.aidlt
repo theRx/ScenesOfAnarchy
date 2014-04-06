@@ -142,3 +142,4 @@ dialogs/mousehigh.tga	dialogs/mousehigh.tga	sRGB=false
 dialogs/mousenorm.tga	dialogs/mousenorm.tga	sRGB=false
 models/misc/tumbler.model	models/misc/tumbler.model	LODSwitchDistances=
 prefabs/tumblerballprefab.prefab	prefabs/tumblerballprefab.prefab	
+prefabs/5ball.prefab	prefabs/5ball.prefab	

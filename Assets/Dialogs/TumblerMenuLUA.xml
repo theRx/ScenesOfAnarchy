@@ -9,7 +9,7 @@
 		</control>
 
 		<control class="VTextLabel" ID="STATIC2" pos="30,350" size="150,35">
-			<text text="Speed" font="MenuFont" color="255,192,25,255" valign="CENTER" halign="LEFT"/>
+			<text text="Starting Speed" font="MenuFont" color="255,192,25,255" valign="CENTER" halign="LEFT"/>
 		</control>
 		
 		<!-- ball spawners -->
@@ -64,24 +64,95 @@
 		</control>
 		
 		<!-- speed control -->
-		<!-- 10 -->
-		<control class="VCheckBox" pos="30,400" size="150,25" ID="CHECKBOX8" checked="false">
-			<image texture="checkbox.tga">
-				<statemodifier state="selected" texture="checkboxMarked.tga"/>
-			</image>
-			<text text="Slow" font="MenuFont" color="255,255,255,255" valign="CENTER" ofs="30,0"/>
-		</control>
-
-		
-		<!-- close button -->
-		<control class="VPushButton" ID="QUIT" pos="30,460" size="88,35" dialogResult="CANCEL" enabled="true" tooltiptext="Close the menu" taborder="6">
-			<text text="Close" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+		<!-- stopped -->
+		<control class="VPushButton" ID="SPEED0" pos="30,400" size="88,35" dialogResult="VEL0" enabled="true" tooltiptext="Start simulation with no rotation" taborder="6">
+			<text text="Stopped" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
 				<statemodifier state="mouseOver" color="230,230,230,255"/>
 				<statemodifier state="selected" color="255,255,255,255"/>
 				<statemodifier state="disabled" color="120,120,120,255"/>
 			</text>
+			
+			<image texture="Button.tga" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" texture="ButtonMouseOver.tga" cursor="HighMouse"/>
+				<statemodifier state="selected" texture="ButtonClicked.tga" cursor="HighMouse"/>
+				<statemodifier state="disabled" texture="ButtonDisabled.tga"/>
+			</image>
 		</control>
 		
-	
+		<!-- speed 1-->
+		<control class="VPushButton" ID="SPEED1" pos="130,400" size="88,35" dialogResult="VEL1" enabled="true" tooltiptext="Start simulation with low rotation" taborder="6">
+			<text text="Low" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" color="230,230,230,255"/>
+				<statemodifier state="selected" color="255,255,255,255"/>
+				<statemodifier state="disabled" color="120,120,120,255"/>
+			</text>
+			
+			<image texture="Button.tga" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" texture="ButtonMouseOver.tga" cursor="HighMouse"/>
+				<statemodifier state="selected" texture="ButtonClicked.tga" cursor="HighMouse"/>
+				<statemodifier state="disabled" texture="ButtonDisabled.tga"/>
+			</image>
+		</control>
+
+		<!-- speed 2 -->
+		<control class="VPushButton" ID="SPEED2" pos="30,450" size="88,35" dialogResult="VEL2" enabled="true" tooltiptext="Start simulation with medium-low rotation" taborder="6">
+			<text text="Brisk" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" color="230,230,230,255"/>
+				<statemodifier state="selected" color="255,255,255,255"/>
+				<statemodifier state="disabled" color="120,120,120,255"/>
+			</text>
+			
+			<image texture="Button.tga" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" texture="ButtonMouseOver.tga" cursor="HighMouse"/>
+				<statemodifier state="selected" texture="ButtonClicked.tga" cursor="HighMouse"/>
+				<statemodifier state="disabled" texture="ButtonDisabled.tga"/>
+			</image>
+		</control>
+		
+		<!-- speed 3 -->
+		<control class="VPushButton" ID="SPEED3" pos="130,450" size="88,35" dialogResult="VEL3" enabled="true" tooltiptext="Start simulation with medium rotation" taborder="6">
+			<text text="Medium" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" color="230,230,230,255"/>
+				<statemodifier state="selected" color="255,255,255,255"/>
+				<statemodifier state="disabled" color="120,120,120,255"/>
+			</text>
+			
+			<image texture="Button.tga" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" texture="ButtonMouseOver.tga" cursor="HighMouse"/>
+				<statemodifier state="selected" texture="ButtonClicked.tga" cursor="HighMouse"/>
+				<statemodifier state="disabled" texture="ButtonDisabled.tga"/>
+			</image>
+		</control>
+
+		<!-- speed 4 -->
+		<control class="VPushButton" ID="SPEED4" pos="30,500" size="88,35" dialogResult="VEL4" enabled="true" tooltiptext="Start simulation with medium-high rotation" taborder="6">
+			<text text="Moderate" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" color="230,230,230,255"/>
+				<statemodifier state="selected" color="255,255,255,255"/>
+				<statemodifier state="disabled" color="120,120,120,255"/>
+			</text>
+			
+			<image texture="Button.tga" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" texture="ButtonMouseOver.tga" cursor="HighMouse"/>
+				<statemodifier state="selected" texture="ButtonClicked.tga" cursor="HighMouse"/>
+				<statemodifier state="disabled" texture="ButtonDisabled.tga"/>
+			</image>
+		</control>
+		
+		<!-- speed 5 -->
+		<control class="VPushButton" ID="SPEED5" pos="130,500" size="88,35" dialogResult="VEL5" enabled="true" tooltiptext="Start simulation with max rotation" taborder="6">
+			<text text="Maximum" font="MenuFont" color="180,180,180,255" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" color="230,230,230,255"/>
+				<statemodifier state="selected" color="255,255,255,255"/>
+				<statemodifier state="disabled" color="120,120,120,255"/>
+			</text>
+			
+			<image texture="Button.tga" valign="CENTER" halign="CENTER">
+				<statemodifier state="mouseOver" texture="ButtonMouseOver.tga" cursor="HighMouse"/>
+				<statemodifier state="selected" texture="ButtonClicked.tga" cursor="HighMouse"/>
+				<statemodifier state="disabled" texture="ButtonDisabled.tga"/>
+			</image>
+		</control>
+
 	</DIALOG>
 </root>
