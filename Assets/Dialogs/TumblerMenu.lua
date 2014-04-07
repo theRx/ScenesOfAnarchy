@@ -161,7 +161,7 @@ function SpawnLoop(x, z)
     entity.RigidBody:SetMass(0.1)
     entity.RigidBody:SetRestitution(0.4)
     entity.RigidBody:SetFriction(0.5)
-    Debug:PrintLine(entity:GetKey())
+    entity.RigidBody:SetAngularDamping(0.05)
   end
 
 end
